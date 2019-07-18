@@ -7,15 +7,9 @@
 //
 //= require jquery-2.2.0.min
 //= require bootstrap
-//= require_tree .
+//= require sls
+//= require sls.init
+//= require sls.message.box
+//= require popper.min
+//= require jquery-confirm.min
 //= require_self
-
-if (typeof jQuery !== 'undefined') {
-    (function($) {
-        $(document).ajaxStart(function() {
-            $('#spinner').fadeIn();
-        }).ajaxStop(function() {
-            $('#spinner').fadeOut();
-        });
-    })(jQuery);
-}

@@ -59,7 +59,7 @@ a.navbar-brand {
     color: white !important;
 }
 .navbar-nav>li>a:hover {
-    background-color: #db4800 !important;
+    background-color: transparent;
     color: white !important;
 }
 .navbar-nav>li>a {
@@ -118,7 +118,7 @@ a.navbar-brand {
 }
 
 .svg #band {
-    background-image: url(../img/grails-cupsonly-logo-white.svg);
+    background-image: url(../images/grails-cupsonly-logo-white.svg);
 }
 
 .no-svg #band {
@@ -235,7 +235,7 @@ a.navbar-brand {
 
 @media (max-width: 1010px) {
     .event-logo {
-        height: ;
+        height: 100%;
     }
 
 }
@@ -381,8 +381,8 @@ body, html {
 }
 
 a {
-    color: #db4800;
-    text-decoration: underline;
+    color: #525252;
+    text-decoration: none;
 }
 
 a:hover {
@@ -806,12 +806,12 @@ ul.nav-sidebar li.active a {
 .table thead tr th {
     padding: 10px;
     font-weight: normal;
-    font-size: 18px
+    font-size: 15px
 }
 
 .table tbody tr td {
     vertical-align: top;
-    font-size: 12px;
+    font-size: 13px;
     padding: 10px;
     border-top: 1px solid #EEE
 }

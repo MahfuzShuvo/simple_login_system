@@ -8,8 +8,11 @@
 * compiled file, but it's generally better to create a new file per style scope.
 *
 *= require bootstrap
+*= require fontawesome-free/css/all
 *= require grails
 *= require main
 *= require mobile
+*= require style
+*= require jquery-confirm.min
 *= require_self
 */
